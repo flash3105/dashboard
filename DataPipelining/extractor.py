@@ -22,7 +22,7 @@ def fetch_and_process_data():
 
 # Function to insert data into the MySQL database
 def insert_data_to_database(df):
-    db = Database("127.0.0.1","root","young2003Toro","mlab_data")
+    db = Database("127.0.0.1","root","password","mlab_data")
     db.create_database_and_table(df)
     db.insert_data(df)
 
