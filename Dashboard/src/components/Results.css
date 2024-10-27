@@ -1,0 +1,19 @@
+.results-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+}
+
+.results-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.speedometer-container {
+    width: 400px;
+    padding-right: 20px;
+}

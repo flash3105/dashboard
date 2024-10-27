@@ -1,0 +1,53 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff; /* Optional background color for the entire app */
+}
+
+
+
+.content {
+ 
+  width:calc(100vw - 220px);
+  margin-left:220px;
+
+}
+
+/*.container {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+
+}*/
+
+.logo {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  max-width: 80%;
+  height: auto;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif; /* Use a sleek, modern font */
+  font-size: 1.75rem; /* Slightly larger for prominence */
+  font-weight: 600; /* Semi-bold for elegance */
+  color: #2C3E50; /* Dark, professional shade */
+  text-transform: uppercase; /* Make the text all caps for a bold statement */
+  letter-spacing: 1px; /* Add space between letters for sophistication */
+  margin-bottom: 1rem; /* Space below the heading */
+  border-bottom: 2px solid #4e73df; /* Subtle underline */
+  padding-bottom: 0.5rem; /* Padding for the underline */
+  transition: color 0.3s ease-in-out; /* Smooth color change on hover */
+}
+
+h3:hover {
+  color: #4e73df; /* Hover effect to change text color */
+}

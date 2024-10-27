@@ -1,0 +1,43 @@
+/*.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+  
+}*/
+
+
+
+.con{
+    width: 100%;
+    max-width: 300px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    max-height: 280px;
+    flex: 1 0 auto;
+    margin-left:70px;
+  
+} 
+
+.con-graph{
+    width: 100%;
+    max-width: 850px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+   
+} /*affects the graph everywhere*/
+
+.draw{
+    width: 100%;
+    max-width: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+}

@@ -1,0 +1,61 @@
+/* Container for the SVG */
+.svg-container {
+    border: 1px solid #ddd; /* Light border around the graph */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background */
+    overflow: hidden; /* Ensure no overflow of the SVG */
+}
+
+/* X Axis styles */
+.x-axis path,
+.x-axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.x-axis text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: #333;
+}
+
+/* Y Axis styles */
+.y-axis path,
+.y-axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.y-axis text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: #333;
+}
+
+/* Line styles */
+path {
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+
+.graph-title {
+    font-size: 16px;
+    font-weight: bold;
+    fill: #000;
+}
+
+/* Legend styles */
+.legend {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    text-anchor: end;
+    fill: #333;
+}
+
+/* Hover effects for lines */
+path:hover {
+    stroke-width: 2;
+    stroke-opacity: 0.8;
+}

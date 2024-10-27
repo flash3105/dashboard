@@ -1,0 +1,118 @@
+.network-stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    position: relative;
+    
+    
+}
+.Avg {
+   
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+
+.stat-item1 {
+    background-color: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    
+
+}
+
+.stat-item2 {
+    background-color: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    margin-left: 20px;
+}
+.stat-item3 {
+    background-color: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    margin-left: 20px;
+
+}
+
+.stat-item4 {
+    background-color: #2c3e50;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 120px;
+    margin-left: 20px;
+
+}
+
+.stat-item1 h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color:#ffff ;
+}
+
+.stat-item1 p {
+    margin: 5px 0 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.stat-item2 h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color:#ffff;
+}
+
+.stat-item2 p {
+    margin: 5px 0 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.stat-item3 h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color:#ffff;
+}
+
+.stat-item3 p {
+    margin: 5px 0 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffff;
+}
+.stat-item4 h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color:#ffff;
+}
+
+.stat-item4 p {
+    margin: 5px 0 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #ffff;
+}
+.icon {
+    font-size: 32px;
+    color: #ffff;
+}

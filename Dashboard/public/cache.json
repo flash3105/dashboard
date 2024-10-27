@@ -1,0 +1,58 @@
+{
+  "networkPerformanceAverages": {
+    "averageDownloadSpeed": 36.801406092998235,
+    "averageLatency": 163.5649636101194,
+    "averagePacketLoss": 5.560472548722437
+  },
+  "isps": {
+    "top_isps": [
+      {
+        "count": 24387,
+        "isp": "Telkom SA Ltd."
+      },
+      {
+        "count": 16930,
+        "isp": "Telecom Algeria"
+      },
+      {
+        "count": 14673,
+        "isp": "TE-AS"
+      },
+      {
+        "count": 13150,
+        "isp": "Vodacom"
+      },
+      {
+        "count": 11657,
+        "isp": "Afrihost (Pty) Ltd"
+      }
+    ]
+  },
+  "places": {
+    "top_places": [
+      {
+        "count": 22598,
+        "place": "Cape Town"
+      },
+      {
+        "count": 19454,
+        "place": "Johannesburg"
+      },
+      {
+        "count": 12884,
+        "place": "Durban"
+      },
+      {
+        "count": 9880,
+        "place": "Pretoria"
+      },
+      {
+        "count": 7381,
+        "place": "Lagos"
+      }
+    ]
+  },
+  "networkPerformanceUploads": {
+    "averageUploadSpeed": 23.48658327113643
+  }
+}

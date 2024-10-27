@@ -1,0 +1,54 @@
+.chart-container-2 {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    max-width: 700px; /* Controls the overall container width */
+     /* Centers the container */
+    
+    padding:0px;
+}
+
+/*.pie {
+    flex: 1;
+    position: relative;
+    
+}*/
+
+.legend {
+    display: grid;
+    grid-template-columns: repeat(2, max-content); /* Adjusts layout for legend */
+    gap: 10px; /* Space between legend items */
+    justify-content: end; /* Align items to the right */
+    /*margin-left: 20px;  Space between pie and legend */
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.legend-color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 4px; /* Adds rounded corners */
+}
+
+.legend-text {
+    margin-right: 10px;
+}
+
+.percentage {
+    opacity: 0;
+    margin-left: 10px;
+}
+
+.legend-item:hover .percentage {
+    opacity: 1; /* Shows percentage on hover */
+}
+
+.tooltip {
+    pointer-events: none; /* Prevent tooltip from blocking mouse events */
+}

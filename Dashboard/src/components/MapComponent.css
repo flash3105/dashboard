@@ -1,0 +1,31 @@
+/* Container for the map component */
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    height: 400px; /* Adjust height as needed */
+     /* Space above the map */
+    border: 1px solid #ddd; /* Optional: border around the map */
+    border-radius: 8px; /* Optional: rounded corners for the map */
+    padding:0px;
+   
+}
+
+/* Map style to fill container */
+.map-container .leaflet-container {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+     /* Match container's border radius */
+}
+
+/* Optional: styling for any map controls or additional elements */
+.map-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 5px;
+    border-radius: 4px;
+    z-index: 1000; /* Ensures controls are above the map */
+}

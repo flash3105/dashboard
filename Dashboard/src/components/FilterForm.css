@@ -1,0 +1,56 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.location,
+.isp-filter,.metric-filter {
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* Adjust as needed */
+}
+
+.location label,
+.isp-filter label,.metric-filter label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.location select,
+.isp-filter select ,.metric-filter select{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
